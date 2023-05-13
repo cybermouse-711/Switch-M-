@@ -50,6 +50,9 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="gHX-4j-3a3">
                                                 <rect key="frame" x="123" y="0.0" width="261" height="31"/>
                                                 <color key="tintColor" systemColor="systemRedColor"/>
+                                                <connections>
+                                                    <action selector="changeRedColor" destination="BYZ-38-t0r" eventType="valueChanged" id="GAn-AA-QTl"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                         <constraints>
@@ -80,6 +83,9 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="oYr-ya-VFT">
                                                 <rect key="frame" x="123" y="0.0" width="261" height="31"/>
                                                 <color key="tintColor" systemColor="systemGreenColor"/>
+                                                <connections>
+                                                    <action selector="changeGreenColor" destination="BYZ-38-t0r" eventType="valueChanged" id="q6N-LO-NqE"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                         <constraints>
@@ -110,6 +116,9 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Gir-wH-F4R">
                                                 <rect key="frame" x="123" y="0.0" width="261" height="31"/>
                                                 <color key="tintColor" systemColor="systemBlueColor"/>
+                                                <connections>
+                                                    <action selector="changeBlueColor" destination="BYZ-38-t0r" eventType="valueChanged" id="H9C-ol-Bu9"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                         <constraints>
@@ -128,6 +137,15 @@
                             <constraint firstItem="KfG-hs-vCv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ffd-yD-gfn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bleuColorSlider" destination="Gir-wH-F4R" id="US2-Sv-CMP"/>
+                        <outlet property="blueColorLabel" destination="AVW-LA-Pxc" id="oN2-GW-PTR"/>
+                        <outlet property="colorView" destination="orP-Lg-GqG" id="vGd-zu-mfb"/>
+                        <outlet property="greenColorLabel" destination="c2t-kc-L3k" id="Nsy-Hi-aIP"/>
+                        <outlet property="greenColorSlider" destination="oYr-ya-VFT" id="LuJ-Q2-nEo"/>
+                        <outlet property="redColorLabel" destination="O09-f5-DfL" id="boS-Eh-mxp"/>
+                        <outlet property="redColorSlider" destination="gHX-4j-3a3" id="abR-di-vhc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
