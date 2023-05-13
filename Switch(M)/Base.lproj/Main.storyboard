@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="KfG-hs-vCv">
-                                <rect key="frame" x="16" y="97" width="358" height="306.66666666666669"/>
+                                <rect key="frame" x="16" y="77" width="358" height="306.66666666666669"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="orP-Lg-GqG">
                                         <rect key="frame" x="0.0" y="0.0" width="358" height="140.66666666666666"/>
@@ -27,7 +27,7 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="bGN-KJ-MMX">
-                                        <rect key="frame" x="0.0" y="175.66666666666669" width="358" height="131"/>
+                                        <rect key="frame" x="0.0" y="175.66666666666666" width="358" height="130.99999999999997"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="cOB-0Q-GuX">
                                                 <rect key="frame" x="0.0" y="0.0" width="358" height="27"/>
@@ -60,7 +60,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="LFD-gu-3OI">
-                                                <rect key="frame" x="0.0" y="52" width="358" height="27"/>
+                                                <rect key="frame" x="0.0" y="52.000000000000028" width="358" height="27"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laS-Ew-sjb">
                                                         <rect key="frame" x="0.0" y="0.0" width="55" height="27"/>
@@ -90,7 +90,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="J4l-mu-SEJ">
-                                                <rect key="frame" x="0.0" y="104" width="358" height="27"/>
+                                                <rect key="frame" x="0.0" y="104.00000000000003" width="358" height="27"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJg-sj-EYQ">
                                                         <rect key="frame" x="0.0" y="0.0" width="55" height="27"/>
@@ -132,7 +132,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KfG-hs-vCv" secondAttribute="trailing" constant="16" id="DS7-9e-sVM"/>
-                            <constraint firstItem="KfG-hs-vCv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="eFE-k9-Bdg"/>
+                            <constraint firstItem="KfG-hs-vCv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="eFE-k9-Bdg"/>
                             <constraint firstItem="KfG-hs-vCv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ffd-yD-gfn"/>
                         </constraints>
                     </view>
