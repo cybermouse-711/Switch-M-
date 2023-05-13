@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 
     // MARK: - IBActions
     @IBAction func changeRedColor() {
-        redColorLabel.text = redColorSlider.value.formatted()
+        redColorLabel.text = String(format: "%.1f", redColorSlider.value)
         colorView.backgroundColor = UIColor(
             red: CGFloat(redColorSlider.value),
             green: CGFloat(greenColorSlider.value),
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func changeGreenColor() {
-        greenColorLabel.text = greenColorSlider.value.formatted()
+        greenColorLabel.text = String(format: "%.1f", greenColorSlider.value)
         colorView.backgroundColor = UIColor(
             red: CGFloat(redColorSlider.value),
             green: CGFloat(greenColorSlider.value),
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func changeBlueColor() {
-        blueColorLabel.text = bleuColorSlider.value.formatted()
+        blueColorLabel.text = String(format: "%.1f", bleuColorSlider.value)
         colorView.backgroundColor = UIColor(
             red: CGFloat(redColorSlider.value),
             green: CGFloat(greenColorSlider.value),
